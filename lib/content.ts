@@ -1,6 +1,6 @@
 export const navItems = [
   { label: "Sites", href: "#sites" },
-  { label: "Automacoes", href: "#automacoes" },
+  { label: "Automações", href: "#automacoes" },
   { label: "Processo", href: "#processo" },
   { label: "Projetos", href: "#projetos" },
   { label: "Contato", href: "#contato" }
@@ -10,42 +10,42 @@ export const impactCards = [
   {
     number: "01",
     title: "Clareza",
-    text: "Seu cliente entende em poucos segundos quem voce e, o que oferece e como entrar em contato."
+    text: "Seu cliente entende em poucos segundos quem você é, o que oferece e como entrar em contato."
   },
   {
     number: "02",
-    title: "Confianca",
-    text: "Um visual profissional aumenta a percepcao de valor do seu negocio antes mesmo da primeira conversa."
+    title: "Confiança",
+    text: "Um visual profissional aumenta a percepção de valor do seu negócio antes mesmo da primeira conversa."
   },
   {
     number: "03",
-    title: "Conversao",
-    text: "Botoes, formularios e WhatsApp posicionados para transformar visitas em contatos reais."
+    title: "Conversão",
+    text: "Botões, formulários e WhatsApp posicionados para transformar visitas em contatos reais."
   },
   {
     number: "04",
-    title: "Organizacao",
-    text: "Fluxos simples para captar informacoes, organizar leads e reduzir bagunca no atendimento."
+    title: "Organização",
+    text: "Fluxos simples para captar informações, organizar contatos e reduzir a bagunça no atendimento."
   }
 ];
 
 export const problemRows = [
   {
     number: "01",
-    title: "Seu negocio parece menor do que realmente e?",
-    text: "Talvez o problema nao seja o servico que voce oferece. Talvez seja a forma como ele esta sendo apresentado.",
-    cta: "Melhorar minha presenca"
+    title: "Seu negócio parece menor do que realmente é?",
+    text: "Talvez o problema não seja o serviço que você oferece. Talvez seja a forma como ele está sendo apresentado.",
+    cta: "Melhorar minha presença"
   },
   {
     number: "02",
-    title: "As pessoas chegam, mas nao entendem o proximo passo?",
-    text: "A estrutura da pagina precisa explicar, gerar confianca e guiar o visitante para uma acao clara.",
+    title: "As pessoas chegam, mas não entendem o próximo passo?",
+    text: "A estrutura da página precisa explicar, gerar confiança e guiar o visitante para uma ação clara.",
     cta: "Organizar meu site"
   },
   {
     number: "03",
-    title: "Voce perde contatos no WhatsApp e na conversa manual?",
-    text: "Formularios, planilhas e mensagens prontas ajudam a captar informacoes sem transformar atendimento em bagunca.",
+    title: "Você perde contatos no WhatsApp e na conversa manual?",
+    text: "Formulários, planilhas e mensagens prontas ajudam a captar informações sem transformar o atendimento em bagunça.",
     cta: "Automatizar atendimento"
   }
 ];
@@ -53,26 +53,26 @@ export const problemRows = [
 export const serviceTracks = [
   {
     id: "comecar",
-    label: "Launch",
-    title: "Comecar com um site profissional",
-    text: "Para quem ainda nao tem presenca digital forte e precisa de uma pagina clara, bonita e pronta para gerar contato.",
-    bullets: ["Landing page", "Apresentacao do negocio", "Botao de WhatsApp", "Formulario de contato", "Visual responsivo"],
+    label: "Começar",
+    title: "Começar com um site profissional",
+    text: "Para quem ainda não tem uma presença digital forte e precisa de uma página clara, bonita e pronta para gerar contato.",
+    bullets: ["Página de captura", "Apresentação do negócio", "Botão de WhatsApp", "Formulário de contato", "Visual responsivo"],
     cta: "Criar meu primeiro site"
   },
   {
     id: "melhorar",
-    label: "Evolve",
+    label: "Evoluir",
     title: "Melhorar um site antigo ou confuso",
-    text: "Para quem ja tem algo online, mas sente que o visual, a clareza ou a conversao nao acompanham o valor do negocio.",
-    bullets: ["Redesign", "Nova estrutura", "Melhoria de textos", "CTAs mais fortes", "Experiencia mobile melhor"],
+    text: "Para quem já tem algo online, mas sente que o visual, a clareza ou a conversão não acompanham o valor do negócio.",
+    bullets: ["Reformulação visual", "Nova estrutura", "Melhoria de textos", "Chamadas para ação mais fortes", "Experiência melhor em dispositivos móveis"],
     cta: "Melhorar meu site"
   },
   {
     id: "automatizar",
-    label: "Automate",
+    label: "Automatizar",
     title: "Automatizar contatos e atendimento",
-    text: "Para quem quer economizar tempo, organizar leads, agendamentos ou pedidos de forma mais simples.",
-    bullets: ["Formulario conectado", "Planilha de leads", "Respostas prontas", "Organizacao de pedidos", "Fluxos simples com IA"],
+    text: "Para quem quer economizar tempo, organizar contatos, agendamentos ou pedidos de forma mais simples.",
+    bullets: ["Formulário conectado", "Planilha de contatos", "Respostas prontas", "Organização de pedidos", "Fluxos simples com IA"],
     cta: "Automatizar atendimento"
   }
 ];
@@ -80,12 +80,12 @@ export const serviceTracks = [
 export const projectCards = [
   {
     title: "Academia Atlas",
-    visualTitle: "Captacao de alunos com WhatsApp",
-    type: "Landing page",
+    visualTitle: "Captação de alunos com WhatsApp",
+    type: "Página de captura",
     stack: "HTML, CSS, JavaScript",
-    text: "Pagina moderna para academia local, com foco em planos, beneficios, botao de WhatsApp e formulario para novos alunos.",
+    text: "Página moderna para academia local, com foco em planos, benefícios, botão de WhatsApp e formulário para novos alunos.",
     goal: "Gerar contatos pelo WhatsApp",
-    result: "Mais clareza, aparencia profissional e contato rapido",
+    result: "Mais clareza, aparência profissional e contato rápido",
     tone: "from-[#18210f] via-[#394820] to-[#0d1110]"
   },
   {
@@ -93,59 +93,59 @@ export const projectCards = [
     visualTitle: "Agendamento simples e direto",
     type: "Site institucional",
     stack: "HTML, CSS, JavaScript",
-    text: "Site visualmente forte para barbearia, com apresentacao de servicos, precos, localizacao e botao de agendamento.",
+    text: "Site visualmente forte para barbearia, com apresentação de serviços, preços, localização e botão de agendamento.",
     goal: "Facilitar agendamentos",
     result: "Menos conversa perdida e clientes mais direcionados",
     tone: "from-[#17100d] via-[#47301f] to-[#0c0908]"
   },
   {
     title: "Essenza Clinic",
-    visualTitle: "Visual premium para servicos esteticos",
-    type: "Landing page premium",
+    visualTitle: "Visual sofisticado para serviços estéticos",
+    type: "Página de captura sofisticada",
     stack: "HTML, CSS, JavaScript",
-    text: "Pagina elegante para clinica estetica, com foco em confianca, explicacao dos servicos e contato direto.",
-    goal: "Passar autoridade e gerar leads",
-    result: "Mais percepcao de valor",
+    text: "Página elegante para clínica estética, com foco em confiança, explicação dos serviços e contato direto.",
+    goal: "Passar autoridade e gerar contatos",
+    result: "Mais percepção de valor",
     tone: "from-[#14201f] via-[#516c68] to-[#101413]"
   }
 ];
 
 export const processRows = [
-  ["01", "Entendimento", "Entendo seu negocio, publico, servicos e o que voce quer alcancar com o site."],
-  ["02", "Estrutura", "Organizo as secoes da pagina: inicio, servicos, beneficios, prova, contato e chamada para acao."],
-  ["03", "Design", "Crio um visual moderno, responsivo e alinhado com a imagem que o negocio precisa transmitir."],
-  ["04", "Desenvolvimento", "Transformo o design em uma pagina funcional, rapida e adaptada para celular e computador."],
-  ["05", "Publicacao", "Deixo o site pronto para uso, divulgacao e recebimento de contatos."],
-  ["06", "Evolucao", "Depois do site no ar, podemos melhorar textos, adicionar automacoes e ajustar com base no uso real."]
+  ["01", "Entendimento", "Entendo seu negócio, público, serviços e o que você quer alcançar com o site."],
+  ["02", "Estrutura", "Organizo as seções da página: início, serviços, benefícios, prova, contato e chamada para ação."],
+  ["03", "Design", "Crio um visual moderno, responsivo e alinhado com a imagem que o negócio precisa transmitir."],
+  ["04", "Desenvolvimento", "Transformo o design em uma página funcional, rápida e adaptada para celular e computador."],
+  ["05", "Publicação", "Deixo o site pronto para uso, divulgação e recebimento de contatos."],
+  ["06", "Evolução", "Depois do site no ar, podemos melhorar textos, adicionar automações e ajustar com base no uso real."]
 ];
 
 export const niches = [
   "Academias",
   "Barbearias",
-  "Clinicas esteticas",
+  "Clínicas estéticas",
   "Lojas locais",
   "Restaurantes",
-  "Personal trainers",
+  "Treinadores pessoais",
   "Professores particulares",
-  "Prestadores de servico",
-  "Profissionais autonomos",
+  "Prestadores de serviço",
+  "Profissionais autônomos",
   "Pequenas empresas"
 ];
 
 export const plans = [
   {
-    title: "Pagina inicial",
-    text: "Para quem precisa comecar com uma presenca profissional.",
-    items: ["Landing page", "Visual responsivo", "Botao de WhatsApp", "Formulario simples"]
+    title: "Página inicial",
+    text: "Para quem precisa começar com uma presença profissional.",
+    items: ["Página de captura", "Visual responsivo", "Botão de WhatsApp", "Formulário simples"]
   },
   {
     title: "Site profissional",
-    text: "Para quem precisa apresentar melhor o negocio.",
-    items: ["Multiplas secoes", "Servicos e diferenciais", "Localizacao", "Contato", "Visual personalizado"]
+    text: "Para quem precisa apresentar melhor o negócio.",
+    items: ["Múltiplas seções", "Serviços e diferenciais", "Localização", "Contato", "Visual personalizado"]
   },
   {
-    title: "Site + automacao",
+    title: "Site + automação",
     text: "Para quem quer captar e organizar contatos.",
-    items: ["Site", "Formulario", "Planilha organizada", "Fluxo simples de atendimento", "Mensagens prontas"]
+    items: ["Site", "Formulário", "Planilha organizada", "Fluxo simples de atendimento", "Mensagens prontas"]
   }
 ];

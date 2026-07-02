@@ -7,10 +7,10 @@ export function Projects() {
     <section id="projetos" className="bg-paper py-[clamp(82px,9vw,140px)] text-ink">
       <div className="page-container grid items-start gap-8 min-[992px]:grid-cols-[minmax(180px,.34fr)_minmax(0,1fr)] min-[992px]:gap-[clamp(24px,5vw,80px)]">
         <Reveal as="p" className="eyebrow eyebrow-dark">
-          Projetos e demonstracoes
+          Projetos e demonstrações
         </Reveal>
         <Reveal as="h2" delay={1} className="title-l">
-          Solucoes criadas para mostrar como design, estrutura e tecnologia mudam a percepcao de um negocio.
+          Soluções criadas para mostrar como design, estrutura e tecnologia mudam a percepção de um negócio.
         </Reveal>
       </div>
 

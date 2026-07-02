@@ -9,7 +9,7 @@ export function Impact() {
           O site precisa resolver
         </Reveal>
         <Reveal as="h2" delay={1} className="title-l">
-          Design bonito e so o comeco. O site precisa resolver um problema.
+          Design bonito é só o começo. O site precisa resolver um problema.
         </Reveal>
       </div>
 

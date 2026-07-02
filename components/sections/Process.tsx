@@ -9,7 +9,7 @@ export function Process() {
           Meu processo
         </Reveal>
         <Reveal as="h2" delay={1} className="title-l">
-          Um processo simples, direto e sem enrolacao.
+          Um processo simples, direto e sem enrolação.
         </Reveal>
       </div>
 

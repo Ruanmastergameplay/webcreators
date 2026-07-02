@@ -6,14 +6,14 @@ export function Hero() {
   return (
     <section id="top" className="overflow-hidden rounded-b-section bg-ink pb-[clamp(88px,10.41vw,150px)] pt-[108px] text-paper min-[768px]:pt-[clamp(112px,14.16vw,204px)]">
       <div className="page-container">
-        <ScrambleText className="eyebrow mb-7">Desenvolvimento web para pequenos negocios</ScrambleText>
+        <ScrambleText className="eyebrow mb-7">Desenvolvimento web para pequenos negócios</ScrambleText>
 
         <div className="grid items-end gap-8 min-[992px]:grid-cols-[minmax(0,1fr)_minmax(220px,360px)] min-[992px]:gap-[clamp(24px,4vw,72px)]">
           <Reveal as="h1" className="title-xl">
-            Sites modernos para negocios que querem parecer maiores, vender melhor e organizar seus clientes.
+            Sites modernos para negócios que querem parecer maiores, vender melhor e organizar seus clientes.
           </Reveal>
           <Reveal as="p" delay={1} className="m-0 text-[22px] leading-[1.35] tracking-[-0.03em] text-white/70 min-[992px]:mb-2">
-            Landing pages &bull; Sites institucionais &bull; Formularios &bull; WhatsApp &bull; Automacoes com IA
+            Páginas de captura &bull; Sites institucionais &bull; Formulários &bull; WhatsApp &bull; Automações com IA
           </Reveal>
         </div>
 
@@ -39,7 +39,7 @@ export function Hero() {
                     Site pronto para converter
                   </span>
                   <strong className="block max-w-[520px] text-[34px] font-normal leading-[0.98] tracking-[-0.04em] min-[992px]:text-[clamp(32px,4.1vw,66px)]">
-                    Clareza, confianca e contato em um so lugar.
+                    Clareza, confiança e contato em um só lugar.
                   </strong>
                   <button className="mt-7 min-h-[52px] rounded-lg bg-orange px-5 text-sm font-bold uppercase tracking-[0.08em] text-white">
                     Chamar no WhatsApp
@@ -47,7 +47,7 @@ export function Hero() {
                 </div>
                 <div className="self-start rounded-[18px] border border-white/[0.078] bg-white/[0.08] p-6 backdrop-blur-md">
                   <i className="not-italic font-bold text-orange">01</i>
-                  <b className="mt-16 block text-2xl font-medium">Leads captados</b>
+                  <b className="mt-16 block text-2xl font-medium">Contatos captados</b>
                   <p className="mt-3 text-base leading-relaxed text-white/65">
                     Nome, WhatsApp e interesse organizados para atendimento.
                   </p>
@@ -58,8 +58,8 @@ export function Hero() {
 
           <Reveal delay={2} className="border-t border-white/[0.078] pt-5">
             <p className="lead-text m-0">
-              Crio paginas rapidas, bonitas e funcionais para pequenos negocios que precisam de uma presenca digital mais
-              profissional, com foco em clareza, design, WhatsApp, captacao de contatos e automacoes simples.
+              Crio páginas rápidas, bonitas e funcionais para pequenos negócios que precisam de uma presença digital mais
+              profissional, com foco em clareza, design, WhatsApp, captação de contatos e automações simples.
             </p>
           </Reveal>
         </div>

@@ -1,6 +1,6 @@
 # Webcreator
 
-Webapp Next.js com Tailwind CSS para portfolio/landing page de criacao de sites, automacoes simples e presenca digital para pequenos negocios.
+Aplicação web em Next.js com Tailwind CSS para portfólio e página de captura de criação de sites, automações simples e presença digital para pequenos negócios.
 
 ## Rodar localmente
 

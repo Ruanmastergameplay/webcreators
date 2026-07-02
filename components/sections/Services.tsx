@@ -8,10 +8,10 @@ export function Services() {
       <div className="page-container grid gap-9 min-[992px]:grid-cols-[minmax(260px,.36fr)_minmax(0,1fr)] min-[992px]:gap-[clamp(28px,5vw,80px)]">
         <aside className="self-start min-[992px]:sticky min-[992px]:top-[104px] min-[992px]:min-h-[calc(100vh-128px)]">
           <Reveal as="p" className="eyebrow mb-7">
-            O que eu faco
+            O que eu faço
           </Reveal>
           <Reveal as="h2" delay={1} className="title-l">
-            Sites e solucoes digitais para negocios que querem sair do basico.
+            Sites e soluções digitais para negócios que querem sair do básico.
           </Reveal>
           <div className="mt-10 flex gap-2 overflow-x-auto pb-2 min-[992px]:grid">
             {serviceTracks.map((track) => (

@@ -8,7 +8,7 @@ export function Footer() {
         <div>
           <strong className="mb-3 block text-paper">Ruan Garcia</strong>
           <p className="m-0 max-w-[520px] text-base leading-relaxed">
-            Desenvolvimento web, sites e automacoes simples para negocios que querem parecer mais profissionais e vender melhor.
+            Desenvolvimento web, sites e automações simples para negócios que querem parecer mais profissionais e vender melhor.
           </p>
         </div>
         <nav className="grid gap-2">
@@ -18,7 +18,7 @@ export function Footer() {
             </Link>
           ))}
         </nav>
-        <p className="m-0 text-base leading-relaxed">Construindo presenca digital com clareza, estetica e funcao.</p>
+        <p className="m-0 text-base leading-relaxed">Construindo presença digital com clareza, estética e função.</p>
       </div>
     </footer>
   );

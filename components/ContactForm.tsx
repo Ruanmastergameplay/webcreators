@@ -11,8 +11,8 @@ export function ContactForm() {
       "",
       `Nome: ${form.get("name") ?? ""}`,
       `WhatsApp: ${form.get("phone") ?? ""}`,
-      `Tipo de negocio: ${form.get("business") ?? ""}`,
-      `Orcamento aproximado: ${form.get("budget") ?? ""}`,
+      `Tipo de negócio: ${form.get("business") ?? ""}`,
+      `Orçamento aproximado: ${form.get("budget") ?? ""}`,
       "",
       `O que preciso: ${form.get("message") ?? ""}`
     ].join("\n");
@@ -35,21 +35,21 @@ export function ContactForm() {
         <input className={inputClass} name="phone" type="tel" placeholder="(00) 00000-0000" required />
       </label>
       <label className={labelClass}>
-        Tipo de negocio
-        <input className={inputClass} name="business" type="text" placeholder="Academia, barbearia, clinica..." />
+        Tipo de negócio
+        <input className={inputClass} name="business" type="text" placeholder="Academia, barbearia, clínica..." />
       </label>
       <label className={labelClass}>
-        O que voce precisa?
+        O que você precisa?
         <textarea className={inputClass} name="message" rows={4} placeholder="Me conte sua ideia" />
       </label>
       <label className={labelClass}>
-        Orcamento aproximado
-        <select className={inputClass} name="budget" defaultValue="Ainda nao sei">
-          <option className="text-ink" value="Ainda nao sei">
-            Ainda nao sei
+        Orçamento aproximado
+        <select className={inputClass} name="budget" defaultValue="Ainda não sei">
+          <option className="text-ink" value="Ainda não sei">
+            Ainda não sei
           </option>
-          <option className="text-ink" value="Ate R$ 500">
-            Ate R$ 500
+          <option className="text-ink" value="Até R$ 500">
+            Até R$ 500
           </option>
           <option className="text-ink" value="R$ 500 a R$ 1.500">
             R$ 500 a R$ 1.500
@@ -64,7 +64,7 @@ export function ContactForm() {
         <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" />
       </button>
       <small className="text-base leading-relaxed text-white/55">
-        Responderei assim que possivel com uma ideia inicial para o seu projeto.
+        Responderei assim que possível com uma ideia inicial para o seu projeto.
       </small>
     </form>
   );

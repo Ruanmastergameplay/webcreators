@@ -7,7 +7,7 @@ export function NichesPlans() {
       <div className="page-container grid gap-14 min-[992px]:grid-cols-[.85fr_1fr] min-[992px]:gap-[clamp(32px,6vw,96px)]">
         <Reveal>
           <p className="eyebrow eyebrow-dark mb-7">Para quem eu crio sites</p>
-          <h2 className="title-l">Negocios que dependem de confianca, contato e boa apresentacao.</h2>
+          <h2 className="title-l">Negócios que dependem de confiança, contato e boa apresentação.</h2>
           <div className="mt-10 flex flex-wrap gap-2">
             {niches.map((niche) => (
               <span key={niche} className="rounded-full border border-ink/10 px-4 py-2 text-sm font-bold uppercase tracking-[0.1em] text-ink/65">

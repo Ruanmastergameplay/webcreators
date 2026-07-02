@@ -7,8 +7,8 @@ export function Problems() {
     <section className="bg-paper pb-[clamp(82px,9vw,140px)] text-ink">
       <div className="page-container">
         <Reveal className="rounded-[28px] border border-ink/10 p-[clamp(24px,5vw,72px)]">
-          <p className="eyebrow eyebrow-dark mb-7">Problems we solve</p>
-          <h2 className="title-l max-w-[900px]">Antes de comprar, seu cliente julga. Um site bem feito organiza essa percepcao.</h2>
+          <p className="eyebrow eyebrow-dark mb-7">Problemas que resolvo</p>
+          <h2 className="title-l max-w-[900px]">Antes de comprar, seu cliente julga. Um site bem feito organiza essa percepção.</h2>
         </Reveal>
 
         <div className="mt-5 grid gap-4">

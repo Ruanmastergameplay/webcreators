@@ -9,13 +9,13 @@ const bricolage = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Ruan Garcia | Sites e automacoes para negocios",
+  title: "Ruan Garcia | Sites e automações para negócios",
   description:
-    "Sites modernos, landing pages, formularios, WhatsApp e automacoes simples para pequenos negocios.",
+    "Sites modernos, páginas de captura, formulários, WhatsApp e automações simples para pequenos negócios.",
   openGraph: {
-    title: "Ruan Garcia | Sites e automacoes para negocios",
+    title: "Ruan Garcia | Sites e automações para negócios",
     description:
-      "Presenca digital com clareza, estetica e funcao para pequenos negocios.",
+      "Presença digital com clareza, estética e função para pequenos negócios.",
     type: "website"
   }
 };
