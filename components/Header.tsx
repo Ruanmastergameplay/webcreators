@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { navItems } from "@/lib/content";
@@ -32,8 +33,15 @@ export function Header() {
       )}
     >
       <Link href="#top" className="relative z-[2] inline-flex items-center gap-3 text-sm font-bold uppercase tracking-[0.12em]">
-        <span className="grid h-[42px] w-[42px] place-items-center rounded-full bg-paper text-ink">RG</span>
-        <span className="max-[720px]:hidden">Ruan Garcia</span>
+        <Image
+          src="/images/logo-webcreatorss.png"
+          alt="Logo da Webcreatorss"
+          width={42}
+          height={42}
+          priority
+          className="h-[42px] w-[42px] object-contain"
+        />
+        <span>Webcreatorss</span>
       </Link>
 
       <nav

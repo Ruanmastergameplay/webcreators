@@ -31,7 +31,7 @@ export function Hero() {
                 <span className="h-2.5 w-2.5 rounded-full bg-white/25" />
                 <span className="h-2.5 w-2.5 rounded-full bg-white/25" />
                 <span className="h-2.5 w-2.5 rounded-full bg-white/25" />
-                <small className="ml-3 text-xs font-bold uppercase tracking-[0.14em]">ruangarcia.dev</small>
+                <small className="ml-3 text-xs font-bold uppercase tracking-[0.14em]">webcreatorss.dev</small>
               </div>
               <div className="grid min-h-[470px] gap-6 p-6 min-[720px]:grid-cols-[1fr_minmax(180px,.58fr)] min-[992px]:p-[clamp(22px,3.2vw,48px)]">
                 <div className="self-end">

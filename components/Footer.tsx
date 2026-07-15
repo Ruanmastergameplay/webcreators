@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="border-t border-white/[0.078] bg-ink py-9 text-white/60">
       <div className="page-container grid gap-7 min-[900px]:grid-cols-[minmax(240px,.8fr)_auto_minmax(220px,.6fr)]">
         <div>
-          <strong className="mb-3 block text-paper">Ruan Garcia</strong>
+          <strong className="mb-3 block text-paper">Webcreatorss</strong>
           <p className="m-0 max-w-[520px] text-base leading-relaxed">
             Desenvolvimento web, sites e automações simples para negócios que querem parecer mais profissionais e vender melhor.
           </p>

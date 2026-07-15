@@ -9,11 +9,16 @@ const bricolage = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Ruan Garcia | Sites e automações para negócios",
+  title: "Webcreatorss",
   description:
     "Sites modernos, páginas de captura, formulários, WhatsApp e automações simples para pequenos negócios.",
+  icons: {
+    icon: "/images/favicon-webcreatorss.png",
+    shortcut: "/images/favicon-webcreatorss.png",
+    apple: "/images/favicon-webcreatorss.png"
+  },
   openGraph: {
-    title: "Ruan Garcia | Sites e automações para negócios",
+    title: "Webcreatorss",
     description:
       "Presença digital com clareza, estética e função para pequenos negócios.",
     type: "website"
