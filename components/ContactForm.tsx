@@ -1,23 +1,30 @@
 "use client";
 
 import { ArrowRight } from "lucide-react";
+import { useState } from "react";
+
+const whatsappBaseUrl = "https://wa.me/5548991054565";
 
 export function ContactForm() {
+  const [budgetUnknown, setBudgetUnknown] = useState(false);
+
   function onSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const form = new FormData(event.currentTarget);
+    const budget = budgetUnknown ? "Ainda não sei" : String(form.get("budget") ?? "").trim();
     const text = [
-      "Oi, Ruan! Quero conversar sobre um site.",
+      "Olá, vim pelo site e gostaria de solicitar um orçamento.",
       "",
       `Nome: ${form.get("name") ?? ""}`,
-      `WhatsApp: ${form.get("phone") ?? ""}`,
-      `Tipo de negócio: ${form.get("business") ?? ""}`,
-      `Orçamento aproximado: ${form.get("budget") ?? ""}`,
-      "",
-      `O que preciso: ${form.get("message") ?? ""}`
+      `E-mail: ${form.get("email") ?? ""}`,
+      `Telefone: ${form.get("phone") ?? ""}`,
+      `Empresa: ${form.get("business") ?? ""}`,
+      `Tipo de negócio: ${form.get("businessType") ?? ""}`,
+      `Orçamento estimado: ${budget || "Não informado"}`,
+      `Mensagem: ${form.get("message") ?? ""}`
     ].join("\n");
 
-    window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, "_blank", "noopener,noreferrer");
+    window.open(`${whatsappBaseUrl}?text=${encodeURIComponent(text)}`, "_blank", "noopener,noreferrer");
   }
 
   const inputClass =
@@ -31,33 +38,45 @@ export function ContactForm() {
         <input className={inputClass} name="name" type="text" placeholder="Seu nome" required />
       </label>
       <label className={labelClass}>
-        WhatsApp
+        E-mail
+        <input className={inputClass} name="email" type="email" placeholder="seuemail@exemplo.com" />
+      </label>
+      <label className={labelClass}>
+        Telefone
         <input className={inputClass} name="phone" type="tel" placeholder="(00) 00000-0000" required />
       </label>
       <label className={labelClass}>
+        Empresa
+        <input className={inputClass} name="business" type="text" placeholder="Nome da empresa" />
+      </label>
+      <label className={labelClass}>
         Tipo de negócio
-        <input className={inputClass} name="business" type="text" placeholder="Academia, barbearia, clínica..." />
+        <input className={inputClass} name="businessType" type="text" placeholder="Academia, barbearia, clínica..." />
       </label>
       <label className={labelClass}>
         O que você precisa?
         <textarea className={inputClass} name="message" rows={4} placeholder="Me conte sua ideia" />
       </label>
       <label className={labelClass}>
-        Orçamento aproximado
-        <select className={inputClass} name="budget" defaultValue="Ainda não sei">
-          <option className="text-ink" value="Ainda não sei">
-            Ainda não sei
-          </option>
-          <option className="text-ink" value="Até R$ 500">
-            Até R$ 500
-          </option>
-          <option className="text-ink" value="R$ 500 a R$ 1.500">
-            R$ 500 a R$ 1.500
-          </option>
-          <option className="text-ink" value="Acima de R$ 1.500">
-            Acima de R$ 1.500
-          </option>
-        </select>
+        Orçamento estimado
+        <input
+          className={inputClass}
+          name="budget"
+          type="text"
+          inputMode="decimal"
+          disabled={budgetUnknown}
+          placeholder="Digite seu orçamento estimado"
+        />
+        <label className="flex min-h-[48px] cursor-pointer items-center gap-3 rounded-lg border border-white/[0.078] bg-white/[0.04] px-4 text-sm normal-case tracking-normal text-white/70 transition hover:bg-white/[0.06]">
+          <input
+            name="budgetUnknown"
+            type="checkbox"
+            checked={budgetUnknown}
+            onChange={(event) => setBudgetUnknown(event.target.checked)}
+            className="h-4 w-4 accent-orange"
+          />
+          Ainda não sei
+        </label>
       </label>
       <button className="group inline-flex min-h-[60px] w-full items-center justify-center gap-3 rounded-lg bg-orange px-8 text-[12px] font-bold uppercase tracking-[0.145em] text-white transition hover:-translate-y-0.5 hover:bg-[#dd6500]">
         Enviar mensagem
